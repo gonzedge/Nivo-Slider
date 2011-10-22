@@ -5,7 +5,7 @@
  * Copyright 2011, Gilbert Pellegrom
  * Free to use and abuse under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * March 2010
  */
 
@@ -36,7 +36,7 @@
                 var background = 'url("' + vars.currentImage.attr('src') + '") no-repeat -' + ((sliceWidth + (position * sliceWidth)) - sliceWidth) + 'px 0%';
                 var width = sliceWidth;
                 if (position == total - 1) {
-                    background = 'url("' + vars.currentImage.attr('src') + '") no-repeat -' + ((sliceWidth + (i * sliceWidth)) - sliceWidth) + 'px 0%'
+                    background = 'url("' + vars.currentImage.attr('src') + '") no-repeat -' + ((sliceWidth + (position * sliceWidth)) - sliceWidth) + 'px 0%'
                     width = slider.width() - (sliceWidth * position);
                 }
 
